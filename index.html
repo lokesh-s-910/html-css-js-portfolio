@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Lokesh S</div>
+        <div>
+            <ul class="nav-links">
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#virtual internship">Virtual Internship</a></li>
+                <li> <a href="#projects">Projects</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </div>   
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Lokesh S</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li> <a href="#about" onclick="toggleMenu()">About</a></li>
+                <li> <a href="#virtual internship" onclick="toggleMenu()">Virtual Internship</a></li>
+                <li> <a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li> <a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/Untitled design.png" alt="Lokesh S profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Lokesh S</h1>
+            <p class="section__text__p2">Data Analyst</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/updated-Resume.pdf')">Download CV</button>
+            <!-- create box code -->
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Details
+            </button>
+        </div>
+        <div id="social-container">
+            <img 
+            src="./assets/linkedin.png" 
+            alt="My Linkedin Profile"
+            class="icon" 
+            onclick="location.href='https://www.linkedin.com/in/lokeshs910/'"
+            title="LinkedIn"
+            />
+            <img 
+            src="./assets/github.png" 
+            alt="My Github Profile"
+            class="icon" 
+            onclick="location.href='https://github.com/lokesh-s-910?tab=repositories'"
+            title="Github"
+            />
+        </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img 
+                src="./assets/fileed.png" 
+                alt="add photo side"
+                class="about-pic"
+                />
+            </div>
+            <div class="about-detials-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img 
+                        src="./assets/experience.png"
+                        alt="experience icon"
+                        class="icon"
+                        />
+                        <h3>Fresher</h3>
+                        <p>0+ years <br>Data Analyst </p>
+                    </div>
+                    <div class="details-container">
+                        <img 
+                        src="./assets/education.png"
+                        alt="education icon"
+                        class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>BE Mechanical Engineering <br>Certification Program in Data Science </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Hello! I'm Lokesh S, a graduate from Cambridge Institute of Technology in Bengaluru with a passion for the data field.
+                    <br>  
+                    <br>I recently completed a One Year Certification Program in Data Science from IIIT Bangalore, where I acquired skills in Python, Machine Learning, MySQL, Tableau, Power BI, and Deep Learning. My projects have focused on leveraging data insights to drive strategic decisions, particularly in the domains of Telecom and Sales.
+                    <br>
+                    <br>Experience in EDA Analysis, Data Preprocessing, Data Visualization, and Data Modeling, I am equipped to tackle diverse data challenges. I've also had the opportunity to enhance my skills through Virtual Internships with PwC and BCG X company.
+                    <!-- <br> -->
+                    <br>I'm enthusiastic about applying my knowledge and expertise to real-world problems and contributing to innovative solutions in the data-driven industry
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="virtual internship">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Virtual Internship On Forage</h1>
+        <div class="virtual-internship-details-container">
+            <div class="about-containers">
+                <div class="detail__container">
+                    <h2 class="virtual-internship-sub-title">PwC Switzerland Power BI</h2>
+                    <div id="social__containers">
+                        <img 
+                        src="./assets/free-certificate-icon-1356-thumb.png" 
+                        alt="Certificate"
+                        class="certificate-icon" 
+                        onclick="location.href='https://drive.google.com/file/d/13MtHj5FN7vPhC6h0HUpdQ2yX4Mam9SLZ/view?usp=sharing'"
+                        title="PwC Certificate"
+                        />
+                    </div>
+                    <div class="article-container">
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="virtual-internship icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>CALCULATING MEASURES</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="virtual-internship icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>DEFINING KPIS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="virtual-internship icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>INSIGHT AND ACTIONS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="virtual-internship icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>POWER BI DASHBOARD</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="virtual-internship icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>SELF REFLECTION</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="detail__container">
+                    <h2 class="virtual-internship-sub-title">BCG Data Science</h2>
+                    <div id="socials__containers-2">
+                        <img 
+                        src="./assets/free-certificate-icon-1356-thumb.png" 
+                        alt="Certificate"
+                        class="certificates__icons-2" 
+                        onclick="location.href='https://drive.google.com/file/d/1wgJzpCW09apmYbeUE3WgNvLneIQnOUQe/view?usp=sharing'"
+                        title="BCG Certificate"
+                        />
+                    <div class="article-container">
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="virtual-internship icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>BUSINESS UNDERSTANDING</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="virtual-internship icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>CLIENT COMMUNICATION</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="virtual-internship icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>DATA VISUALIZATION</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="virtual-internship icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>EXPLORATORY DATA ANALYSIS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="virtual-internship icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>HYPOTHESIS FRAMING</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="virtual-internship icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>MATHEMATICAL MODELLING</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="virtual-internship icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>MODEL EVALUATION</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="virtual-internship icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>MODEL INTERPRETATION</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="virtual-internship icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>PROGRAMMING</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="virtual-internship-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                        src="./assets/rsvp.jpg"
+                        alt="project-1"
+                        class="project-img"
+                        />
+                    </div>
+                    <h2 class="virtual-internship-sub-title project-title">MySQL</h2>
+                    <h3>RSVP Movie Production Company</h3>
+                    <!-- <p></p> -->
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/lokesh-s-910/RSVP-'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                        src="./assets/hospatality.jpg"
+                        alt="project-1"
+                        class="project-img"
+                        />
+                    </div>
+                    <h2 class="virtual-internship-sub-title project-title">Power BI</h2>
+                    <h3>Hospitality Management Industry</h3>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/lokesh-s-910/Hospitality-Dashboard'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                        src="./assets/churn.png"
+                        alt="project-1"
+                        class="project-img"
+                        />
+                    </div>
+                    <h2 class="virtual-internship-sub-title project-title">Machine Learning</h2>
+                    <h3>Telecom Churn Industry Prediction</h3>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/lokesh-s-910/Telecom-churn'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                        src="./assets/deep_learn.jpg"
+                        alt="project-1"
+                        class="project-img"
+                        />
+                    </div>
+                    <h2 class="virtual-internship-sub-title project-title">Deep Learning</h2>
+                    <h3>Potato Leaves Blight Detect System</h3>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/lokesh-s-910/potato_leaves_blight_detect'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-details-upper-container">
+            <div class="contact-details-container">
+                <img 
+                src="./assets/email.png"
+                alt="email-icon"
+                class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:examplemail@gmail.com">lokeshsurlivel@gmail.com</a></p>
+            </div>
+            <div class="contact-details-container">
+                <img 
+                src="./assets/linkedin.png"
+                alt="linkedin-icon"
+                class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/lokeshs910/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section> 
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#virtual internship">Virtual Internship</a></li>
+                    <li> <a href="#projects">Projects</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Lokesh S. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
